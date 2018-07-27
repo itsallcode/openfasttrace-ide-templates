@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><templates><template autoinsert="true" context="org.eclipse.mylyn.wikitext.ui.editor" deleted="false" description="Software Design" enabled="true" name="design">###### ${title}
+`dsn~${id_name_part}~1`
+
+${description}
+
+Covers:
+
+* `${requirment_id}`
+
+Needs: impl, utest, itest</template><template autoinsert="true" context="org.eclipse.mylyn.wikitext.ui.editor" deleted="false" description="OFT Feature (what you would write on a one-page product sheet)" enabled="true" name="feature">### ${feautre_name}
+`feat~${id_name_part}~1`
+
+${description}
+
+Rationale:
+
+${rationale}
+
+Needs: req</template><template autoinsert="true" context="org.eclipse.mylyn.wikitext.ui.editor" deleted="false" description="System requirement (from the user's perspective)" enabled="true" name="requirement">###### ${title}
+`req~${id_name_part}~1`
+
+${description}
+
+Rationale:
+
+${rationale}
+
+Covers:
+
+* [feat~${feature_id_name_part}~1](#${feature_title_with_hypens})
+
+Needs: dsn</template></templates>
