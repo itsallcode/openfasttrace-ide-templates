@@ -11,7 +11,7 @@ One of the available Markdown Editors for Eclipse that works really well is the 
 1. Download the template export file from this repository.
 1. In The Eclipse menu chosse "Window" &rarr; "Preferences"
 1. The the dialog "Preferences"
-   1. search for "Templates"
+   1. Search for "Templates"
    1. Find the section under "WikiText"
    1. In the "Templates" sub-dialog on the right
       1. Click "Import..."

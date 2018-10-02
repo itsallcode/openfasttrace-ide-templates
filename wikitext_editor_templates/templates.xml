@@ -7,7 +7,7 @@ Covers:
 
 * `${requirment_id}`
 
-Needs: impl, utest, itest</template><template autoinsert="true" context="org.eclipse.mylyn.wikitext.ui.editor" deleted="false" description="OFT Feature (what you would write on a one-page product sheet)" enabled="true" name="feature">### ${feautre_name}
+Needs: impl, utest, itest</template><template autoinsert="true" context="org.eclipse.mylyn.wikitext.ui.editor" deleted="false" description="OFT Feature (what you would write on a one-page product sheet)" enabled="true" name="feature">### ${feature_name}
 `feat~${id_name_part}~1`
 
 ${description}
