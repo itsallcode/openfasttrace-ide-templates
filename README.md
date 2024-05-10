@@ -2,8 +2,8 @@
 
 This project contains IDE templates for creating [OpenFastTrace](https://github.com/itsallcode/openfasttrace) artifacts faster with IDEs.
 
-1. [Eclipse WikiText Editor Templates]
-2. [IntelliJ / PyCharm / CLion Live Templates](.../intellij_life_templates)
+1. [Eclipse WikiText Editor Templates](#eclipse)
+2. [IntelliJ / PyCharm / CLion Live Templates](#intellij-idea--pycharm--clion)
 
 These templates configure auto-completion features of your IDF so that you can create artifacts like features, system requirements and design more quickly and safely.
 
@@ -18,14 +18,14 @@ One of the available Markdown Editors for [Eclipse](https://www.eclipse.org/) th
 #### Installation Steps for the Eclipse WikiText Editor Templates:
 
 1. Download the template export file from the file [`wikitext_editor_templates/templates.xml`](wikitext_editor_templates/templates.xml) this repository.
-2. In the Eclipse menu choose "Window" → "Preferences"
-3. In dialog "Preferences":
-   1. Search for "Templates"
-   2. Find the section under "WikiText"
-   3. In the "Templates" sub-dialog on the right
-      1. Click "Import..."
+2. In the Eclipse menu choose `Window` → `Preferences`
+3. In dialog `Preferences`:
+   1. Search for `Templates`
+   2. Find the section under `WikiText`
+   3. In the `Templates` sub-dialog on the right
+      1. Click `Import…`
       2. Pick the downloaded template file
-   4. Click "Apply and Close"
+   4. Click `Apply and Close`
 
 #### Using the Templates in the WikiText Editor
 
