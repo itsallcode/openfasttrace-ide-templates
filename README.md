@@ -41,10 +41,10 @@ The Live Templates work for _all_ products from the [JetBrains IDE](https://www.
 
 #### Installation Steps for the IntelliJ IDEA / PyCharm / CLion Live Templates:
 
-1. Clone or download the Live Templates Export [`jetbrains_ide_live_templates/oft_live_templates.zip](jetbrains_ide_live_templates/oft_live_templates.zip) from this repository.
+1. Clone or download the Live Templates Export [`jetbrains_ide_live_templates/oft_live_templates.xml`](jetbrains_ide_live_templates/oft_live_templates.xml) from this repository.
 2. Open IntelliJ IDEA / PyCharm / CLion
 3. In the IDE's menu choose `File` → `Manage IDE Settings` → `Import Settings`.
-3. In the `Import File Location` dialog that appears, navigate to the directory containing the downloaded template ZIP archive. Select the file and click `OK`.
+3. In the `Import File Location` dialog that appears, navigate to the directory containing the downloaded template file. Select the file and click `OK`.
 4. In the `Select Components to Import` dialog, make sure `Live templates` is checked, then click `OK`.
 
 #### Using the Live Templates in IntelliJ IDEA / PyCharm / CLion
