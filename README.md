@@ -5,7 +5,7 @@ This project contains IDE templates for creating [OpenFastTrace](https://github.
 1. [Eclipse WikiText Editor Templates](#eclipse)
 2. [IntelliJ / PyCharm / CLion Live Templates](#intellij-idea--pycharm--clion)
 
-These templates configure auto-completion features of your IDF so that you can create artifacts like features, system requirements and design more quickly and safely.
+These templates configure auto-completion features of your IDE so that you can create artifacts like features, system requirements and design more quickly and safely.
 
 ![Templates in action](doc/images/oft_typing_templates.gif)
 
@@ -17,7 +17,7 @@ One of the available Markdown Editors for [Eclipse](https://www.eclipse.org/) th
 
 #### Installation Steps for the Eclipse WikiText Editor Templates:
 
-1. Download the template export file from the file [`wikitext_editor_templates/templates.xml`](wikitext_editor_templates/templates.xml) this repository.
+1. Download the template export file from [`wikitext_editor_templates/templates.xml`](wikitext_editor_templates/templates.xml) in this repository.
 2. In the Eclipse menu choose `Window` → `Preferences`
 3. In dialog `Preferences`:
    1. Search for `Templates`
@@ -41,11 +41,16 @@ The Live Templates work for _all_ products from the [JetBrains IDE](https://www.
 
 #### Installation Steps for the IntelliJ IDEA / PyCharm / CLion Live Templates:
 
-1. Clone or download the Live Templates Export [`jetbrains_ide_live_templates/oft_live_templates.xml`](jetbrains_ide_live_templates/oft_live_templates.xml) from this repository.
-2. Open IntelliJ IDEA / PyCharm / CLion
-3. In the IDE's menu choose `File` → `Manage IDE Settings` → `Import Settings`.
-3. In the `Import File Location` dialog that appears, navigate to the directory containing the downloaded template file. Select the file and click `OK`.
-4. In the `Select Components to Import` dialog, make sure `Live templates` is checked, then click `OK`.
+1. Open the Live Templates Export [`jetbrains_ide_live_templates/oft_live_templates.xml`](jetbrains_ide_live_templates/oft_live_templates.xml) from this repository.
+2. Copy the entire XML content to your clipboard.
+3. Open IntelliJ IDEA / PyCharm / CLion.
+4. Navigate to `File` → `Settings` (on Windows and Linux) or `IntelliJ IDEA` → `Preferences` (on macOS).
+5. In the Settings/Preferences dialog, select `Editor` → `Live Templates`.
+6. Add a template group (Click the `+` or type button or `[ALT] + [INS]`) and name it "OpenFastTrace".
+7. Select the newly created template group.
+8. Paste the clipboard contents into the template group.
+
+Note, that while strictly speaking the file is not valid XML — since it has multiple root elements — this still works fine and is the simplest way to import the templates available. 
 
 #### Using the Live Templates in IntelliJ IDEA / PyCharm / CLion
 
