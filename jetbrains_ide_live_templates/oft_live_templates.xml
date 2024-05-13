@@ -1,0 +1,324 @@
+<template name="arch" value="$HEADER_LEVEL$ $TITLE$&#10;`arch~$NAME$~1`&#10;&#10;$DESCRIPTION$&#10;&#10;COMMENT:&#10;&#10;$COMMENT$&#10;&#10;Covers:&#10;&#10;* `$COVERED$`&#10;&#10;Needs: dsn&#10;&#10;$END$" description="OFT Architectual Requirement" toReformat="false" toShortenFQNames="true">
+  <variable name="HEADER_LEVEL" expression="enum(&quot;###&quot;, &quot;####&quot;, &quot;#####&quot;, &quot;######&quot;, &quot;##&quot;)" defaultValue="" alwaysStopAt="true" />
+  <variable name="TITLE" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="NAME" expression="lowercaseAndDash(TITLE)" defaultValue="" alwaysStopAt="true" />
+  <variable name="DESCRIPTION" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="COMMENT" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="COVERED" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="ANY_OPENAPI_JSON_FILE" value="false" />
+    <option name="ANY_OPENAPI_YAML_FILE" value="false" />
+    <option name="Angular" value="false" />
+    <option name="BIBTEX" value="false" />
+    <option name="CSS" value="false" />
+    <option name="CUCUMBER_FEATURE_FILE" value="false" />
+    <option name="GENERAL_JSON_FILE" value="false" />
+    <option name="GENERAL_YAML_FILE" value="false" />
+    <option name="GROOVY" value="false" />
+    <option name="HTML" value="false" />
+    <option name="HTTP_CLIENT_ENVIRONMENT" value="false" />
+    <option name="JAVA_CODE" value="false" />
+    <option name="JAVA_SCRIPT" value="false" />
+    <option name="JSON" value="false" />
+    <option name="JSP" value="false" />
+    <option name="KOTLIN" value="false" />
+    <option name="KUBERNETES_RESOURCE" value="false" />
+    <option name="LATEX" value="false" />
+    <option name="MAVEN" value="false" />
+    <option name="OTHER" value="true" />
+    <option name="PROTO" value="false" />
+    <option name="PROTOTEXT" value="false" />
+    <option name="PUML" value="false" />
+    <option name="Properties" value="false" />
+    <option name="QUTE" value="false" />
+    <option name="REQUEST" value="false" />
+    <option name="SHELL_SCRIPT" value="false" />
+    <option name="SQL" value="false" />
+    <option name="TypeScript" value="false" />
+    <option name="Vue" value="false" />
+    <option name="XML" value="false" />
+  </context>
+</template>
+<template name="bconstr" value="$HEADER_LEVEL$ $TITLE$&#10;`bconstr~$NAME$~1`&#10;&#10;$DESCRIPTION$&#10;&#10;Rationale:&#10;&#10;$RATIONALE$&#10;&#10;Needs: req&#10;&#10;$END$&#10;" description="OFT Business Constraint" toReformat="false" toShortenFQNames="true">
+  <variable name="HEADER_LEVEL" expression="enum(&quot;##&quot;, &quot;###&quot;, &quot;####&quot;, &quot;#####&quot;, &quot;######&quot;)" defaultValue="" alwaysStopAt="true" />
+  <variable name="TITLE" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="NAME" expression="lowercaseAndDash(TITLE)" defaultValue="" alwaysStopAt="true" />
+  <variable name="DESCRIPTION" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="RATIONALE" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="ANY_OPENAPI_JSON_FILE" value="false" />
+    <option name="ANY_OPENAPI_YAML_FILE" value="false" />
+    <option name="Angular" value="false" />
+    <option name="BIBTEX" value="false" />
+    <option name="CSS" value="false" />
+    <option name="CUCUMBER_FEATURE_FILE" value="false" />
+    <option name="GENERAL_JSON_FILE" value="false" />
+    <option name="GENERAL_YAML_FILE" value="false" />
+    <option name="GROOVY" value="false" />
+    <option name="HTML" value="false" />
+    <option name="HTTP_CLIENT_ENVIRONMENT" value="false" />
+    <option name="JAVA_CODE" value="false" />
+    <option name="JAVA_SCRIPT" value="false" />
+    <option name="JSON" value="false" />
+    <option name="JSP" value="false" />
+    <option name="KOTLIN" value="false" />
+    <option name="KUBERNETES_RESOURCE" value="false" />
+    <option name="LATEX" value="false" />
+    <option name="MAVEN" value="false" />
+    <option name="OTHER" value="true" />
+    <option name="PROTO" value="false" />
+    <option name="PROTOTEXT" value="false" />
+    <option name="PUML" value="false" />
+    <option name="Properties" value="false" />
+    <option name="QUTE" value="false" />
+    <option name="REQUEST" value="false" />
+    <option name="SHELL_SCRIPT" value="false" />
+    <option name="SQL" value="false" />
+    <option name="TypeScript" value="false" />
+    <option name="Vue" value="false" />
+    <option name="XML" value="false" />
+  </context>
+</template>
+<template name="constr" value="$HEADER_LEVEL$ $TITLE$&#10;`constr~$NAME$~1`&#10;&#10;$DESCRIPTION$&#10;&#10;Rationale:&#10;&#10;$RATIONALE$&#10;&#10;Needs: dsn&#10;&#10;$END$&#10;" description="OFT Technical Constraint" toReformat="false" toShortenFQNames="true">
+  <variable name="HEADER_LEVEL" expression="enum(&quot;###&quot;, &quot;####&quot;, &quot;#####&quot;, &quot;######&quot;, &quot;##&quot;)" defaultValue="" alwaysStopAt="true" />
+  <variable name="TITLE" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="NAME" expression="lowercaseAndDash(TITLE)" defaultValue="" alwaysStopAt="true" />
+  <variable name="DESCRIPTION" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="RATIONALE" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="ANY_OPENAPI_JSON_FILE" value="false" />
+    <option name="ANY_OPENAPI_YAML_FILE" value="false" />
+    <option name="Angular" value="false" />
+    <option name="BIBTEX" value="false" />
+    <option name="CSS" value="false" />
+    <option name="CUCUMBER_FEATURE_FILE" value="false" />
+    <option name="GENERAL_JSON_FILE" value="false" />
+    <option name="GENERAL_YAML_FILE" value="false" />
+    <option name="GROOVY" value="false" />
+    <option name="HTML" value="false" />
+    <option name="HTTP_CLIENT_ENVIRONMENT" value="false" />
+    <option name="JAVA_CODE" value="false" />
+    <option name="JAVA_SCRIPT" value="false" />
+    <option name="JSON" value="false" />
+    <option name="JSP" value="false" />
+    <option name="KOTLIN" value="false" />
+    <option name="KUBERNETES_RESOURCE" value="false" />
+    <option name="LATEX" value="false" />
+    <option name="MAVEN" value="false" />
+    <option name="OTHER" value="true" />
+    <option name="PROTO" value="false" />
+    <option name="PROTOTEXT" value="false" />
+    <option name="PUML" value="false" />
+    <option name="Properties" value="false" />
+    <option name="QUTE" value="false" />
+    <option name="REQUEST" value="false" />
+    <option name="SHELL_SCRIPT" value="false" />
+    <option name="SQL" value="false" />
+    <option name="TypeScript" value="false" />
+    <option name="Vue" value="false" />
+    <option name="XML" value="false" />
+  </context>
+</template>
+<template name="dsn" value="$HEADER_LEVEL$ $TITLE$&#10;`dsn~$NAME$~1`&#10;&#10;$DESCRIPTION$&#10;&#10;Covers:&#10;&#10;* `$COVERED$`&#10;&#10;Needs: impl, $TEST_TYPE$&#10;&#10;$END$" description="OFT Design" toReformat="false" toShortenFQNames="true">
+  <variable name="HEADER_LEVEL" expression="enum(&quot;###&quot;, &quot;####&quot;, &quot;#####&quot;, &quot;######&quot;, &quot;##&quot;)" defaultValue="" alwaysStopAt="true" />
+  <variable name="TITLE" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="NAME" expression="lowercaseAndDash(TITLE)" defaultValue="" alwaysStopAt="true" />
+  <variable name="DESCRIPTION" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="COVERED" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="TEST_TYPE" expression="enum(&quot;utest&quot;, &quot;itest&quot;, &quot;stest&quot;)" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="ANY_OPENAPI_JSON_FILE" value="false" />
+    <option name="ANY_OPENAPI_YAML_FILE" value="false" />
+    <option name="Angular" value="false" />
+    <option name="BIBTEX" value="false" />
+    <option name="CSS" value="false" />
+    <option name="CUCUMBER_FEATURE_FILE" value="false" />
+    <option name="GENERAL_JSON_FILE" value="false" />
+    <option name="GENERAL_YAML_FILE" value="false" />
+    <option name="GROOVY" value="false" />
+    <option name="HTML" value="false" />
+    <option name="HTTP_CLIENT_ENVIRONMENT" value="false" />
+    <option name="JAVA_CODE" value="false" />
+    <option name="JAVA_SCRIPT" value="false" />
+    <option name="JSON" value="false" />
+    <option name="JSP" value="false" />
+    <option name="KOTLIN" value="false" />
+    <option name="KUBERNETES_RESOURCE" value="false" />
+    <option name="LATEX" value="false" />
+    <option name="MAVEN" value="false" />
+    <option name="OTHER" value="true" />
+    <option name="PROTO" value="false" />
+    <option name="PROTOTEXT" value="false" />
+    <option name="PUML" value="false" />
+    <option name="Properties" value="false" />
+    <option name="QUTE" value="false" />
+    <option name="REQUEST" value="false" />
+    <option name="SHELL_SCRIPT" value="false" />
+    <option name="SQL" value="false" />
+    <option name="TypeScript" value="false" />
+    <option name="Vue" value="false" />
+    <option name="XML" value="false" />
+  </context>
+</template>
+<template name="feat" value="$HEADER_LEVEL$ $TITLE$&#10;`feat~$NAME$~1`&#10;&#10;$DESCRIPTION$&#10;&#10;Rationale:&#10;&#10;$RATIONALE$&#10;&#10;Needs: req&#10;&#10;$END$&#10;" description="OFT Feature" toReformat="false" toShortenFQNames="true">
+  <variable name="HEADER_LEVEL" expression="enum(&quot;##&quot;, &quot;###&quot;, &quot;####&quot;, &quot;#####&quot;, &quot;######&quot;)" defaultValue="" alwaysStopAt="true" />
+  <variable name="TITLE" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="NAME" expression="lowercaseAndDash(TITLE)" defaultValue="" alwaysStopAt="true" />
+  <variable name="DESCRIPTION" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="RATIONALE" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="ANY_OPENAPI_JSON_FILE" value="false" />
+    <option name="ANY_OPENAPI_YAML_FILE" value="false" />
+    <option name="Angular" value="false" />
+    <option name="BIBTEX" value="false" />
+    <option name="CSS" value="false" />
+    <option name="CUCUMBER_FEATURE_FILE" value="false" />
+    <option name="GENERAL_JSON_FILE" value="false" />
+    <option name="GENERAL_YAML_FILE" value="false" />
+    <option name="GROOVY" value="false" />
+    <option name="HTML" value="false" />
+    <option name="HTTP_CLIENT_ENVIRONMENT" value="false" />
+    <option name="JAVA_CODE" value="false" />
+    <option name="JAVA_SCRIPT" value="false" />
+    <option name="JSON" value="false" />
+    <option name="JSP" value="false" />
+    <option name="KOTLIN" value="false" />
+    <option name="KUBERNETES_RESOURCE" value="false" />
+    <option name="LATEX" value="false" />
+    <option name="MAVEN" value="false" />
+    <option name="OTHER" value="true" />
+    <option name="PROTO" value="false" />
+    <option name="PROTOTEXT" value="false" />
+    <option name="PUML" value="false" />
+    <option name="Properties" value="false" />
+    <option name="QUTE" value="false" />
+    <option name="REQUEST" value="false" />
+    <option name="SHELL_SCRIPT" value="false" />
+    <option name="SQL" value="false" />
+    <option name="TypeScript" value="false" />
+    <option name="Vue" value="false" />
+    <option name="XML" value="false" />
+  </context>
+</template>
+<template name="qg" value="$HEADER_LEVEL$ $TITLE$&#10;`qg~$NAME$~1`&#10;&#10;$DESCRIPTION$&#10;&#10;Rationale:&#10;&#10;$RATIONALE$&#10;&#10;Needs: qs&#10;&#10;$END$" description="OFT Qualtity Goal" toReformat="false" toShortenFQNames="true">
+  <variable name="HEADER_LEVEL" expression="enum(&quot;##&quot;, &quot;###&quot;, &quot;####&quot;, &quot;#####&quot;, &quot;######&quot;)" defaultValue="" alwaysStopAt="true" />
+  <variable name="TITLE" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="NAME" expression="lowercaseAndDash(TITLE)" defaultValue="" alwaysStopAt="true" />
+  <variable name="DESCRIPTION" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="RATIONALE" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="ANY_OPENAPI_JSON_FILE" value="false" />
+    <option name="ANY_OPENAPI_YAML_FILE" value="false" />
+    <option name="Angular" value="false" />
+    <option name="BIBTEX" value="false" />
+    <option name="CSS" value="false" />
+    <option name="CUCUMBER_FEATURE_FILE" value="false" />
+    <option name="GENERAL_JSON_FILE" value="false" />
+    <option name="GENERAL_YAML_FILE" value="false" />
+    <option name="GROOVY" value="false" />
+    <option name="HTML" value="false" />
+    <option name="HTTP_CLIENT_ENVIRONMENT" value="false" />
+    <option name="JAVA_CODE" value="false" />
+    <option name="JAVA_SCRIPT" value="false" />
+    <option name="JSON" value="false" />
+    <option name="JSP" value="false" />
+    <option name="KOTLIN" value="false" />
+    <option name="KUBERNETES_RESOURCE" value="false" />
+    <option name="LATEX" value="false" />
+    <option name="MAVEN" value="false" />
+    <option name="OTHER" value="true" />
+    <option name="PROTO" value="false" />
+    <option name="PROTOTEXT" value="false" />
+    <option name="PUML" value="false" />
+    <option name="Properties" value="false" />
+    <option name="QUTE" value="false" />
+    <option name="REQUEST" value="false" />
+    <option name="SHELL_SCRIPT" value="false" />
+    <option name="SQL" value="false" />
+    <option name="TypeScript" value="false" />
+    <option name="Vue" value="false" />
+    <option name="XML" value="false" />
+  </context>
+</template>
+<template name="qs" value="$HEADER_LEVEL$ $TITLE$&#10;`qs~$NAME$~1`&#10;&#10;$DESCRIPTION$&#10;&#10;Covers:&#10;&#10;* `$COVERED$`&#10;&#10;Needs: dsn, $TEST_TYPE$&#10;&#10;$END$" description="OFT Quality Scenario" toReformat="false" toShortenFQNames="true">
+  <variable name="HEADER_LEVEL" expression="enum(&quot;###&quot;, &quot;####&quot;, &quot;#####&quot;, &quot;######&quot;, &quot;##&quot;)" defaultValue="" alwaysStopAt="true" />
+  <variable name="TITLE" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="NAME" expression="lowercaseAndDash(TITLE)" defaultValue="" alwaysStopAt="true" />
+  <variable name="DESCRIPTION" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="COVERED" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="TEST_TYPE" expression="enum(&quot;utest&quot;, &quot;itest&quot;, &quot;stest&quot;)" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="ANY_OPENAPI_JSON_FILE" value="false" />
+    <option name="ANY_OPENAPI_YAML_FILE" value="false" />
+    <option name="Angular" value="false" />
+    <option name="BIBTEX" value="false" />
+    <option name="CSS" value="false" />
+    <option name="CUCUMBER_FEATURE_FILE" value="false" />
+    <option name="GENERAL_JSON_FILE" value="false" />
+    <option name="GENERAL_YAML_FILE" value="false" />
+    <option name="GROOVY" value="false" />
+    <option name="HTML" value="false" />
+    <option name="HTTP_CLIENT_ENVIRONMENT" value="false" />
+    <option name="JAVA_CODE" value="false" />
+    <option name="JAVA_SCRIPT" value="false" />
+    <option name="JSON" value="false" />
+    <option name="JSP" value="false" />
+    <option name="KOTLIN" value="false" />
+    <option name="KUBERNETES_RESOURCE" value="false" />
+    <option name="LATEX" value="false" />
+    <option name="MAVEN" value="false" />
+    <option name="OTHER" value="true" />
+    <option name="PROTO" value="false" />
+    <option name="PROTOTEXT" value="false" />
+    <option name="PUML" value="false" />
+    <option name="Properties" value="false" />
+    <option name="QUTE" value="false" />
+    <option name="REQUEST" value="false" />
+    <option name="SHELL_SCRIPT" value="false" />
+    <option name="SQL" value="false" />
+    <option name="TypeScript" value="false" />
+    <option name="Vue" value="false" />
+    <option name="XML" value="false" />
+  </context>
+</template>
+<template name="req" value="$HEADER_LEVEL$ $TITLE$&#10;`req~$NAME$~1`&#10;&#10;$DESCRIPTION$&#10;&#10;Covers:&#10;&#10;* [`$COVERED$`](#$MARKDOWN_LINK$)&#10;&#10;Needs: req&#10;&#10;$END$" description="OFT Highlevel Requirement" toReformat="false" toShortenFQNames="true">
+  <variable name="HEADER_LEVEL" expression="enum(&quot;###&quot;, &quot;####&quot;, &quot;#####&quot;, &quot;######&quot;, &quot;##&quot;)" defaultValue="" alwaysStopAt="true" />
+  <variable name="TITLE" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="NAME" expression="lowercaseAndDash(TITLE)" defaultValue="" alwaysStopAt="true" />
+  <variable name="DESCRIPTION" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="COVERED" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="MARKDOWN_LINK" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="ANY_OPENAPI_JSON_FILE" value="false" />
+    <option name="ANY_OPENAPI_YAML_FILE" value="false" />
+    <option name="Angular" value="false" />
+    <option name="BIBTEX" value="false" />
+    <option name="CSS" value="false" />
+    <option name="CUCUMBER_FEATURE_FILE" value="false" />
+    <option name="GENERAL_JSON_FILE" value="false" />
+    <option name="GENERAL_YAML_FILE" value="false" />
+    <option name="GROOVY" value="false" />
+    <option name="HTML" value="false" />
+    <option name="HTTP_CLIENT_ENVIRONMENT" value="false" />
+    <option name="JAVA_CODE" value="false" />
+    <option name="JAVA_SCRIPT" value="false" />
+    <option name="JSON" value="false" />
+    <option name="JSP" value="false" />
+    <option name="KOTLIN" value="false" />
+    <option name="KUBERNETES_RESOURCE" value="false" />
+    <option name="LATEX" value="false" />
+    <option name="MAVEN" value="false" />
+    <option name="OTHER" value="true" />
+    <option name="PROTO" value="false" />
+    <option name="PROTOTEXT" value="false" />
+    <option name="PUML" value="false" />
+    <option name="Properties" value="false" />
+    <option name="QUTE" value="false" />
+    <option name="REQUEST" value="false" />
+    <option name="SHELL_SCRIPT" value="false" />
+    <option name="SQL" value="false" />
+    <option name="TypeScript" value="false" />
+    <option name="Vue" value="false" />
+    <option name="XML" value="false" />
+  </context>
+</template>
